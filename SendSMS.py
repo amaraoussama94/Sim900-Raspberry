@@ -41,7 +41,7 @@ print(rcv)
 
 #Message text
 port.write('Hello User'+'\r\n')
-rcv=port.readd(10)
+rcv=port.read(10)
 print(rcv)
 
 #Enable to send SMS = ctrl+z
